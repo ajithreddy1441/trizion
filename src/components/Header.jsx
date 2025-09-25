@@ -20,7 +20,7 @@ const Header = () => {
           <div className="flex-shrink-0">
             <Link to="/" className="flex items-center space-x-2">
               <img
-                src="./src/assets/logo.jpg" 
+                src="/logo.jpg"
                 alt="Trizion Logo"
                 className="h-10 w-10 object-cover rounded-full"
               />
