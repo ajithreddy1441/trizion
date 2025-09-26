@@ -11,6 +11,7 @@ import Offer from './components/Offer';
 import Portfolio from './components/Portfolio'; 
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import PortfolioPage from './components/Portfoliopage';
 
 // Home component that contains all your main sections
 const Home = () => {
@@ -38,7 +39,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/about-us" element={<AboutUs />} />
             <Route path="/services" element={<Services />} /> 
-            <Route path="/portfolio" element={<Portfolio />} /> 
+            <Route path="/portfolio" element={<PortfolioPage />} /> 
             <Route path="/contact" element={<Contact />} />
           </Routes>
         </main>
