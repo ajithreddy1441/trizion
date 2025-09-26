@@ -1,6 +1,6 @@
 export default {
   plugins: {
-    'postcss-nested': {}, // Add this before Tailwind
+    'postcss-nested': {},
     'tailwindcss': {},
     'autoprefixer': {},
   }
